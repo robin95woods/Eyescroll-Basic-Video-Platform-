@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+
+.container{
+    height: 420px;
+    width: 100%;
+    background-color: rgb(102, 238, 204);
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
+h1,h2,h3,h4{
+    color: black;
+}
+
+.links{
+    width: 30%;
+    position: absolute;
+    left: 0px;
+    top: 343px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 150px;
+}
+
+.logo2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    left: 700px;
+
+}
+
+.partner{
+    float: right;
+    display: block;
+    border: black;
+    border-style: solid;
+    width: 15%;
+    position: relative;
+    top: -20px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+.bottom-container{
+    height: 910px;
+    width: 100%;
+    position:relative;
+    top: 100px;
+    background-color: rgb(34, 123, 126);
+    margin: 0;
+}
+
+table{
+    margin: 50px;
+    padding: 50px; 
+
+    padding-top: 50px;
+    width: 95%;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: black;
+    position: relative;
+    bottom: 50px;
+
+}
+
+.title{
+    position: relative;
+    top: 150px;
+    background-color: cadetblue;
+    border-style: solid;
+    border-width: 10px;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.footer{
+    background-color:rgb(102, 238, 204);
+    margin: auto;
+    height: 90px;
+    position: relative;
+    bottom: 30px;
+    padding-top: 5px;
+
+}
